@@ -1,5 +1,5 @@
-# Real time app using socket.io
-### Developing basic app to allow user to add comments and everyone else can see it on real time.
+# simple-notification-system
+A simple Node.JS notification system that uses Socket.IO for real-time notifications.
 
 - Download the code.
 
@@ -9,5 +9,3 @@
 
 - Tutorial link : http://codeforgeek.com/2015/03/real-time-app-socket-io/
 =======
-# simple-notification-system
-A simple Node.JS notification system that uses Socket.IO for real-time notifications.
