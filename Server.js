@@ -58,25 +58,6 @@ io.on('connection',function(socket){
     });
 });
 
-// var add_status = function (status,callback) {
-//     pool.getConnection(function(err,connection){
-//         if (err) {
-//           connection.release();
-//           callback(false);
-//           return;
-//         }
-//     connection.query("INSERT INTO `status` (`s_text`) VALUES ('"+status+"')",function(err,rows){
-//             connection.release();
-//             if(!err) {
-//               callback(true);
-//             }
-//         });
-//      connection.on('error', function(err) {
-//               callback(false);
-//               return;
-//         });
-//     });
-// }
 
 var add_notification = function (text,img,sound,callback) {
     pool.getConnection(function(err,connection){
